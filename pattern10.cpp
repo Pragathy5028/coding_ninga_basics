@@ -7,12 +7,11 @@ int main(){
     for(int i=1; i<=n; i++){
         int column=i;
         for(int j=1;j<=i; j++){
-            // cout<<column;
+            cout<<column;
             column++;
 
         }
-        cout<<column;
-        // cout<<endl;
+        cout<<endl;
 
     }
     return 0;
